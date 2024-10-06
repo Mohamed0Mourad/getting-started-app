@@ -27,4 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
+             ghcr.io/mohamed0mourad/getting-started:latest
              ghcr.io/mohamed0mourad/getting-started:${{ github.sha }}
