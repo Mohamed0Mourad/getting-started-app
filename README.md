@@ -2,13 +2,6 @@
 
 A simple application for the getting started guide in Docker's documentation.
 
-## Getting Started
-
-### Prerequisites
-
-- [Docker](https://www.docker.com/get-started) installed on your machine
-- [Node.js](https://nodejs.org/) (optional, if you want to run the app locally without Docker)
-
 ### Installation
 
 1. Clone the repository:
@@ -17,42 +10,6 @@ A simple application for the getting started guide in Docker's documentation.
     git clone https://github.com/Mohamed0Mourad/getting-started-app.git
     cd getting-started-app
     ```
-
-2. Build the Docker image:
-
-    ```sh
-    docker build -t getting-started-app .
-    ```
-
-3. Run the Docker container:
-
-    ```sh
-    docker run -p 3000:3000 getting-started-app
-    ```
-
-4. Open your browser and go to `http://localhost:3000` to see the application running.
-
-## Usage
-
-This application serves as a starting point for learning Docker. It is a simple app built with JavaScript, HTML, and CSS.
-
-### Running Locally
-
-If you prefer to run the app locally without Docker, follow these steps:
-
-1. Install the dependencies:
-
-    ```sh
-    npm install
-    ```
-
-2. Start the application:
-
-    ```sh
-    npm start
-    ```
-
-3. Open your browser and go to `http://localhost:3000` to see the application running.
 
 ## GitHub Actions Workflow
 
